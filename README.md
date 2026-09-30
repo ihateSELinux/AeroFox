@@ -24,10 +24,14 @@ This is forked from Sand216's AeroFirefox 3.0 test branch: https://github.com/Sa
 7. If on Firefox 157 or newer, enable the **Standard** Window Density in your browser appearance settings: about:preferences#appearance
 8. Restart Firefox!
 
-## Bugs and todo
+## Bugs
 1. Text glow and hover glow get cut off by the padding
 2. Find a way to make the padding round! I hear this should be possible in Firefox Nova
 3. The inner window shine currently assumes a 73 pixel tall panel; it will look weird if you don't have standard window density, the menubar, and 100% GUI scaling in Plasma.
+
+## Planned features
+1. Old school UI buttons (eg the home button, downloads button)
+2. Maybe redesign the tabs to more closely resemble old school Firefox
 
 ## Screenshot
 ![image](/screenshots/AeroFox.png)
