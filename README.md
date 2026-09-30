@@ -1,43 +1,33 @@
-# Aero Firefox
+# AeroFox
 
-![GitHub Release](https://img.shields.io/github/v/release/SandTechStuff/AeroFirefox)
-![GitHub Release Date](https://img.shields.io/github/release-date/SandTechStuff/AeroFirefox)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SandTechStuff/AeroFirefox/total)
-
-> [!WARNING]
-> The latest release no longer works on Firefox 141 and over.
-> If you want to use the theme on newer versions, download it from the [3.0-test](https://github.com/SandTechStuff/AeroFirefox/tree/3.0-test) branch.
-
-Brings the Aero titlebar buttons from Windows Vista/7 to modern versions of Firefox, complete with hover and active effects!
+Brings the Aero titlebar buttons from Windows Vista/7 to modern versions of Firefox, complete with hover and active effects, as well as window transparency and shiny padding!
 
 This theme uses images extracted from the official Windows 7 msstyles theme file, so the buttons are as accurate as possible (besides the hover glow).
 
+This is forked from Sand216's AeroFirefox 3.0 test branch: https://github.com/Sand216/AeroFirefox/tree/3.0-test
+
 |Operating System|Supported?  |
 |:---------------|:----------:|
-|Windows 11      |✅          |
-|Windows 10      |✅          |
+|Linux with KDE Plasma      |✅          |
+|Windows 10           |❌          |
+|Windows 11           |❌          |
 |MacOS           |❌          |
-|Linux           |Maybe       |
 
 ## Installation
 
-Install like any other Firefox CSS theme.
-1. Check for compatibility issues in the chart below.
-2. Open `about:config`
-3. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to true.
-4. Open `about:profiles`
-5. Click `Open Folder` next to the root directory of your currently selected profile.
-6. Copy the `chrome` folder from this repository into your Firefox profile folder.
+1. Open `about:config`
+2. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to true.
+3. Open `about:profiles`
+4. Click `Open Folder` next to the root directory of your currently selected profile.
+5. Copy the `chrome` folder from this repository into your Firefox profile folder.
+6. Right click the top of your Firefox window to enable the menubar
+7. If on Firefox 157 or newer, enable the **Standard** Window Density in your browser appearance settings: about:preferences#appearance
+8. Restart Firefox!
 
-## Screenshots
+## Bugs and todo
+1. Text glow and hover glow get cut off by the padding
+2. Find a way to make the padding round! I hear this should be possible in Firefox Nova
+3. The inner window shine currently assumes a 73 pixel tall panel; it will look weird if you don't have standard window density, the menubar, and 100% GUI scaling in Plasma.
 
-_Currently Outdated (Pre-2.0)_
-
-> Dark Mode
-![image](/screenshots/screen1.png)
-
->Light Mode
-![image](/screenshots/screen2.png)
-
->Alphenglow
-![image](/screenshots/screen3.png)
+## Screenshot
+![image](/screenshots/AeroFox.png)
