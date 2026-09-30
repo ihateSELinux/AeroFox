@@ -1,0 +1,13 @@
+/* Change the address bar background color */
+:root {
+    --toolbar-field-background-color: #ffffff !important; /* Normal state */
+    --toolbar-field-focus-background-color: #ffffff !important; /* When clicked/focused */
+}
+
+/* 2. Target the new address bar background class to add the outline */
+#urlbar .urlbar-background,
+#urlbar[breakout][breakout-extend] .urlbar-background,
+#searchbar-new{
+border: 1px solid #a3b3c6 !important; /* <--- CHANGE THIS HEX COLOR TO YOUR LIKING */
+border-radius: 10px;
+}

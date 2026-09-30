@@ -1,0 +1,31 @@
+/* 1. Toolbar and bookmarks bar gradient (#e6eef8 to pure white) */
+#nav-bar {
+position: relative !important;
+background: transparent !important;
+box-shadow: none !important;
+}
+
+#nav-bar::before {
+content: "" !important;
+position: absolute !important;
+top: 0 !important;
+left: 0 !important;
+right: 0 !important;
+bottom: -32px !important; /* Extends down to cover the bookmarks bar */
+background-image: linear-gradient(to top, #e6eef8, #ffffff) !important;
+z-index: -1 !important;
+}
+
+#PersonalToolbar {
+background: transparent !important;
+position: relative !important;
+box-shadow: none !important;
+border-top: none !important;
+}
+
+/* 2. Active tab gradient (#e6eef8 to pure white) */
+.tab-background:is([selected], [multiselected]) {
+    background-image: linear-gradient(to top, #e6eef8, #ffffff) !important;
+}
+
+

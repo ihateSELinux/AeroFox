@@ -1,0 +1,5 @@
+/* Adjust Main Browser Window Corner Radius */
+#main-window {
+border-radius: 12px !important; /* Change this value for the overall window */
+overflow: hidden !important;
+}
